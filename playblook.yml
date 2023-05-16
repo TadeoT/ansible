@@ -5,7 +5,4 @@
       ansible.builtin.ping:
     - name: Print message
       ansible.builtin.debug:
-        msg: Hello world 
-    - name: Ejecutando Commands
-      ansible.builtin.command: 
-        cmd: /home/jenkins/task1.sh 
+              msg: Hello world 
