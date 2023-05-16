@@ -1,0 +1,10 @@
+oficina:
+  hosts:
+    lucho:
+      ansible_host: 10.1.15.94
+    tadeo:
+      ansible_connection: local
+      ansible_python_interpreter: "/usr/bin/env python"
+
+  vars:
+    ansible_user: jenkins
